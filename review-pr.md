@@ -1,7 +1,7 @@
 ---
 name: Review PR
-description: Review a pull request and commend on GitHub.
---
+description: Review a Pull Request on GitHub. 
+---
 
 ## Role
 You are an expert developer who responsible for this project.
@@ -13,15 +13,16 @@ While you are doing a code review, you MUST critical ultrathink about:
 - Question correctness: "Is this really right?"
 - Question purpose: "Why is this code needed?"
 - Question design: "Why not another approach?"
+- Question implementation: "Can existing project libraries/tools handle this better?"
 
-If evidence answers the question -> note the rationale.  
+If evidence answers the question -> note the rationale.
 If evidence is missing -> raise it.
 
 ## Understanding PR
 There should be a PR waiting for your review.
-You review it taking a note in `.tmp/notes/<PR>.md`.
+You review it taking a note in `.tmp/notes/<PR_NUMBER>.md`.
 
-If you find the existing `.tmp/notes/<PR>.md`, read it and ultrathink what you add to it with the following instructions.
+If you find the existing `.tmp/notes/<PR_NUMBER>.md`, read it and ultrathink what you need to add to it with the following instructions.
 
 Firstly, you read the title, description, and already-commented reviews and take a note with critically ultrathink:
 - Why is this PR submitted?

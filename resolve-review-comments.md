@@ -1,7 +1,7 @@
 ---
 name: Resolve PR comments
-description: Resolves review comments on the PR
---
+description: Resolves review comments on the PR.
+---
 
 Review unresolved comments on the PR and fix issues that are pointed out in the comments.
 Ultrathink about how can you improve current codes along with the solution of the issue. You might need to fix other parts of as well.
